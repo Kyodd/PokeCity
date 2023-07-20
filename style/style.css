@@ -15,12 +15,21 @@
 }
 
 .pkb_size{
-    width: 100px;
+    width: 80px;
 }
 
-.pkb_size:active{
-    width: 200px;
+.pkb_anim{
+    width: 150px;
     animation: rotation 5s infinite linear;
+}
+
+.starter{
+    display: flex;
+    justify-content: center;
+}
+
+.pkm_starter{
+    width: 100px;
 }
 
 @keyframes rotation {

@@ -14,10 +14,10 @@ window.addEventListener('load', (e) => {
                 
             }
             hidebtn()
-            if (e.target.id == 0) {
+            if (e.target.id.slice(3,4) == 0) {
                 document.getElementById('bulbi').style.display = 'block'
             } else{
-                if (e.target.id == 1) {
+                if (e.target.id.slice(3,4) == 1) {
                     document.getElementById('salameche').style.display = 'block'
                 } else{
                     document.getElementById('carapuce').style.display = 'block'

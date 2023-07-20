@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 50px auto auto auto;
+    width: 30%;
+    text-align: center;
+}
+
+.btn_list{
+    margin-bottom: 10px;
+}
+
+.pkb_size{
+    width: 100px;
+}
+
+.pkb_size:active{
+    width: 200px;
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

@@ -8,10 +8,10 @@
 .profchen{
     width: 100px;
     height: 181px; 
+    /* rapport largeur hauteur 1.81 */
     position: relative;
     top: 140px; 
     left: 600px;
-    /* rapport largeur hauteur 1.81 */
 }
         
 .blabla {

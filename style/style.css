@@ -1,8 +1,22 @@
+
 .logo {
-    justify-content: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto 
+    }
+
+.profchen{
+    width: 100px;
+    height: 180px;
+    /* rapport largeur hauteur 1.81 */
+}
+        
+.blabla {
+    text-align: center;
 }
 
-*{
+
+{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -23,8 +37,7 @@
 }
 
 .pkb_anim{
-    width: 150px;
-    animation: rotation 5s infinite linear;
+    animation: rotation 3s infinite linear;
 }
 
 .starter{
@@ -34,18 +47,6 @@
 
 .pkm_starter{
     width: 100px;
-}
-
-.Logo{
-    width: 250px;
-    height: 125px;
-    justify-content: center;
-}
-
-.ProfChen{
-    
-    width: 50px;
-    height: 50px;
 }
 
 @keyframes rotation {

@@ -1,5 +1,56 @@
-.logo {
+.carap{
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    position: relative;
+    top: -140px;
+    width: 142px;
+}
+
+.sidebar {
+    display: flex;
+    display: grid;
+
+}
+
+.ball {
+
+    width: 100px;
+    margin-left: -1px;
+
+}
+
+.dex {
+    width: 100px;
+    margin-left: -5px;
+}
+
+.map {
+    width: 110px;
+    margin-left: -5px;
+}
+
+.quizz {
+    width: 70px;
+    margin-left: 5px;
+}
+
+.pikachu {
+
+    width: 500px;
+    position: relative;
+    top: -500px;
+    left: 500px;
+
+}
+
+
+header{
+
+    text-align: center;
+
+}
+
+nav {
+    
+    text-align: left;
 }

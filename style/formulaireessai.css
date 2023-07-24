@@ -99,3 +99,8 @@
        entre les étiquettes et les champs texte */
     margin-left: 0.5em;
   }
+
+  .form {
+    text-align: center;
+    margin-top: -470px;
+  }

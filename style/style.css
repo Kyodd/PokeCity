@@ -82,7 +82,7 @@
 
     position: relative;
     top: 20px; 
-    left: 20px;
+    left: 15px;
 }
 
 .pkmCarapuce{
@@ -185,17 +185,6 @@
     background-color: #19869a;
 
   }
-
-#1{
-
-
-
-
-}
-
-
-
-
   
 @keyframes rotation {
     from {

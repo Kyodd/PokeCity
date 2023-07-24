@@ -33,7 +33,7 @@
     border-radius: 4px;
     padding: 5px;
     width: 300px;
-    backdrop-filter: blur(50%);
+    backdrop-filter: blur(50px);
 }
 
 .container{

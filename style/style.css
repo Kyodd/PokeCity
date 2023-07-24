@@ -25,6 +25,7 @@
 }
 
 .blablachen {
+
     position: relative;
     top: -300px; 
     left: 325px;
@@ -32,6 +33,7 @@
     border-radius: 4px;
     padding: 5px;
     width: 300px;
+    backdrop-filter: blur(50%);
 }
 
 .container{

@@ -1,15 +1,17 @@
 .background-image{
+
     background-image: url('.././img/pokemon\ wallpaper\ préaccueil.jpg');
     background-size: cover;
-    
 }
 
 .logo {
+
     display: block;
     margin: auto;
 }
 
 .chen {
+
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +23,6 @@
     position: relative;
     top: -50px;
     left: 100px;
-
 }
 
 .blablachen {
@@ -37,16 +38,19 @@
 }
 
 .container{
+
     margin: 50px auto auto auto;
     width: 30%;
     text-align: center;
 }
 
 .btn_list{
+
     margin-bottom: 10px;
 }
 
 .pkb_size{
+
     width: 80px;
     position: relative;
     top: -300px; 
@@ -96,6 +100,7 @@
 }
 
 .pkb_anim{
+
     animation: rotation 3s infinite linear;
 }
 
@@ -107,7 +112,6 @@
     top: -300px; 
     left: 0px;
     justify-content: space-between;
-
 }
 
 .pkm_starter{
@@ -132,12 +136,11 @@
     cursor: pointer;
     margin: 5px;  
     border-radius: 50px;
-
 }
 
 #bulbi:hover {
-    background-color: #0ea489;
 
+    background-color: #0ea489;
   }
 
 #salameche{
@@ -157,7 +160,6 @@
     cursor: pointer;
     margin: 5px;  
     border-radius: 50px;
-
 }
 
 #salameche:hover {
@@ -183,13 +185,11 @@
     cursor: pointer;
     margin: 5px;  
     border-radius: 50px;
-
 }
 
 #carapuce:hover {
 
     background-color: #19869a;
-
   }
   
 @keyframes rotation {

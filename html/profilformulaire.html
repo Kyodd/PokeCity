@@ -23,67 +23,46 @@
 
     <section>
 
-        <nav>
-            <div class="pokeball">
-                <img src="../img/pokeball.png" 
-                alt="pokeball" 
-                class="ball"/>
-            </div>
-            <div class="pokedex">
-                <img src="../img/pokedexvrai.png"
-                alt="pokedex"
-                class="dex"/>
-            </div>
-    
-            <div class="map">
-                <img src="../img/map.png"
-                alt="map"
-                class="map">
-            </div>
-            
-            <div class="quizz">
-                <img src="../img/logo_quizz.png"
-                alt="logoquizz" 
-                class="quizz">
-            </div>
-            
-        </nav>
-    
-                <form method="post" action="ma page de traitement">
-           
-                <h2>Formulaire d'Inscription</h2>
-                                                                          
-                    <div id="lab">
-    
-                        <label>Pseudonyme :</label><input type="text" name="pseudo" id="pseudo" value="" maxlength="20" required placeholder="Votre Pseudonyme"/>
-                                 
-                        <label>Votre adresse mail :</label><input type="email" name="Votre adresse mail" id= "nom" value="" maxlength="40" required placeholder="Votre adresse mail" />
-                    
-                        <label >Mot de Passe : 
-                            <input name="password" id="password" type="password" required placeholder="Votre mot de passe"/></label>     
-                                <label>Confirmer le mot de Passe :
-                            <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirmer mot de passe" />
-                                </label>
-    
-                        <input type="submit" value="S'inscrire">
-    
-                    </div>
-    
-                    </form>
+    <nav>
+        <div class="pokeball">
+            <img src="../img/pokeball.png" 
+            alt="pokeball" 
+            class="ball"/>
+        </div>
+        <div class="pokedex">
+            <img src="../img/pokedexvrai.png"
+            alt="pokedex"
+            class="dex"/>
+        </div>
 
-    </section>
-    
-
-
-        <!-- <div>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username">
+        <div class="map">
+            <img src="../img/map.png"
+            alt="map"
+            class="map">
         </div>
         
-        <div>
-            <label for="pass">Password (8 characters minimum):</label>
-            <input type="password" id="pass" name="password"
-                   minlength="8" required>
-        </div> -->
+        <div class="quizz">
+            <img src="../img/logo_quizz.png"
+            alt="logoquizz" 
+            class="quizz">
+        </div>
         
-        
+    </nav>
+   
+    <form method="post" action="ma page de traitement">
+       
+        <legend>formulaire d'inscription</legend>
+                                                                      
+         <p><label>Votre nom</label> :<br/> <input type="text" name="Votre nom" id= "nom" value="votre  nom" size="30" maxlength="20" /></p>
+         <p><label>Votre prénom</label> : <br/> <input type="text" name="Votre Prénom" id= "nom" value="votre Prénom" size="30" maxlength="20" /></p>
+         <p><label>Votre adresse</label> :<br/><input type="text" name="Votre adresse" id= "nom" value="votre adresse" size="60" maxlength="60" /></p>
+         <p>Code Postal: <input type="text" name="Code Postal" id= "nom" value="Code Postal" size="5" maxlength="5"/>
+            Ville : <input type="text" name="ville" id= "ville" value="" size="12" maxlength="12"/></p>
+         <p><label>Votre N° Tel.</label> : <br/><input type="text" name="Votre N° Tel." id= "nom" value="Votre N° Tel" size="13" maxlength="12" /></p>
+        <p><label>Votre adresse mail</label> : <br/><input type="text" name="Votre adresse mail" id= "nom" value="Votre adresse mail" size="40" maxlength="40" /></p>
+    
+    </form>
+    
+    </section>
+
+</body> 

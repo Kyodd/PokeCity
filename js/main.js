@@ -4,8 +4,25 @@ function hidebtn() {
     document.getElementById('carapuce').style.display = 'none'
 }
 
+function checkerStater(e) {
+    if (localStorage.getItem('pokemon')) {
+        const starter = localStorage.getItem('pokemon')
+        if (starter === "bulbi") {
+            document.getElementById('body').classList.add('start_Bulbi')
+        } else if(starter === "salameche") {
+            document.getElementById('body').classList.add('start_Salameche')
+        }else{
+            document.getElementById('body').classList.add('start_Carapuce')
+        }
+    }
+}
+
 window.addEventListener('load', (e) => {
-    hidebtn()
+    checkerStater();
+    if (document.getElementById('bulbi') && document.getElementById('salameche') && document.getElementById('carapuce')) {
+        hidebtn()
+    }
+    
     const imgList = document.querySelectorAll('.pkb_size');
     imgList.forEach((img) => {
         img.addEventListener('click', (e) => {
@@ -48,4 +65,33 @@ window.addEventListener('load', (e) => {
             imgList[e.target.id].classList.toggle('pkb_anim')
         })
     })
+    if (document.getElementById('bulbi')) {
+        document.getElementById('bulbi').addEventListener('click', (e)=>{
+            localStorage.clear()
+            localStorage.setItem('pokemon', "bulbi");
+            setTimeout(() => {
+                
+            }, 200);
+        })
+    }
+    if (document.getElementById('salameche')) {
+        document.getElementById('salameche').addEventListener('click', (e)=>{
+            localStorage.clear()
+            localStorage.setItem('pokemon', "salameche");
+            setTimeout(() => {
+                
+            }, 200);
+        })
+        
+    }
+    if (document.getElementById('carapuce')) {
+        document.getElementById('carapuce').addEventListener('click', (e)=>{
+            localStorage.clear()
+            localStorage.setItem('pokemon', "carapuce");
+            setTimeout(() => { 
+
+            }, 200);
+        })
+    }
+
 });

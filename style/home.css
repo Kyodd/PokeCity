@@ -1,0 +1,43 @@
+.logo {
+
+    display: block;
+    margin: auto;
+
+}
+
+.pokeball {
+
+    width: 80px;
+    margin-left: 10px;
+
+}
+
+.pokedex {
+
+    width: 80px;
+
+}
+
+.carte {
+
+    width: 90px;
+    margin-top: -10px;
+    margin-left: -7px;
+
+}
+
+.quizz {
+
+    width: 60px;
+    margin-top: -10px;
+    margin-left: 10px;
+
+}
+
+nav {
+
+    display: flex;
+    flex: content;
+    flex-direction: column;
+
+}

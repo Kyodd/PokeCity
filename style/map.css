@@ -42,10 +42,11 @@ nav {
     width: 142px;
 }
 
-#img {
+.img {
     visibility: hidden;
-}
+} 
 
 .show{
     visibility: visible;
+    opacity: 1;
 }

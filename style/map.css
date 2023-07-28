@@ -1,3 +1,7 @@
+body {
+    transition: .5s;
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -42,4 +46,15 @@ nav {
     display: block;
     margin: auto;
     margin-top: -350px;
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.button {
+    display: block;
+    margin-left: 500px;
 }

@@ -42,19 +42,10 @@ nav {
     width: 142px;
 }
 
-.view {
-    display: block;
-    margin: auto;
-    margin-top: -350px;
+#img {
     visibility: hidden;
 }
 
-.show {
+.show{
     visibility: visible;
-    opacity: 1;
-}
-
-.button {
-    display: block;
-    margin-left: 500px;
 }

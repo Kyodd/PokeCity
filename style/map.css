@@ -43,10 +43,10 @@ nav {
 }
 
 .img {
-    visibility: hidden;
+    display: none;
 } 
 
 .show{
-    visibility: visible;
+    display: block;
     opacity: 1;
 }

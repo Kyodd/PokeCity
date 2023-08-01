@@ -6,8 +6,6 @@ nav {
     display: flex;
     flex-direction: column;
     width: 8%;
-    border: #55e214 5px solid;
-
 }
 
 .ball {
@@ -60,8 +58,7 @@ nav {
 
 aside {
 
-    width: 92%;
-    border: #55e214 5px solid;
+    width: 92%;;
     display: flex;
     justify-content: center;
 }

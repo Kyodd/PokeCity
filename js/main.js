@@ -94,4 +94,7 @@ window.addEventListener('load', (e) => {
         })
     }
 
+    document.getElementById('exit').addEventListener('click', (e)=>{
+        localStorage.clear();
+    })
 });

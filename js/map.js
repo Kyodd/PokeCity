@@ -1,6 +1,3 @@
-const btn = document.getElementById("btn");
-const image = document.getElementsByClassName("img");
-
-btn.addEventListener("click",function(event){
-image[0].classList.toggle("show");
+document.getElementById("cv").addEventListener("click",(e)=>{
+    document.getElementById("imgcv").classList.toggle("show");
 })

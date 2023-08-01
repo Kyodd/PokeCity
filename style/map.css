@@ -5,7 +5,9 @@ body {
 nav {
     display: flex;
     flex-direction: column;
-    width: 5%;
+    width: 8%;
+    border: #55e214 5px solid;
+
 }
 
 .ball {
@@ -49,4 +51,26 @@ nav {
 .show{
     display: block;
     opacity: 1;
+}
+
+.clickevent {
+    display: block;
+    justify-content: center;
+}
+
+aside {
+
+    width: 92%;
+    border: #55e214 5px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.navmap {
+    display: flex;
+}
+
+.cv {
+    width: 80%;
+    margin: auto 0;
 }

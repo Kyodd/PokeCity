@@ -31,16 +31,21 @@ nav {
     margin-left: 5px;
 }
 
-.logo {
-    display: block;
-    margin: auto;
+.pickprofil {
+    width: 100px;
 }
+
+header {
+    text-align: center;
+}
+
 .carap{
     display: block;
     margin-left: auto;
     position: relative;
     top: -140px;
     width: 142px;
+    height: 8%;
 }
 
 .img {

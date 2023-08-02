@@ -1,11 +1,14 @@
 .start_Bulbi{
     background-image: url(../img/1-bulbizarrebackground.jpg);
+    background-attachment: fixed;
 }
 
 .start_Carapuce{
     background-image: url(../img/3-carapuce\ background.jpg);
+    background-attachment: fixed;
 }
 
 .start_Salameche{
     background-image: url(../img/2-salameche\ background.jpg);
+    background-attachment: fixed;
 }

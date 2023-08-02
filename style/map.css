@@ -6,6 +6,7 @@ nav {
     display: flex;
     flex-direction: column;
     width: 8%;
+    position: absolute;
 }
 
 .ball {
@@ -57,8 +58,7 @@ nav {
 }
 
 aside {
-
-    width: 92%;;
+    width: 100%;;
     display: flex;
     justify-content: center;
 }
@@ -68,6 +68,12 @@ aside {
 }
 
 .cv {
-    width: 80%;
-    margin: auto 0;
+    display: block;
+    width: 100%;
+    margin-top: -100px;  
+}
+
+footer{
+    display: block;
+    justify-content: end;
 }

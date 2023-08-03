@@ -66,15 +66,15 @@
   
   .plan{
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 250px;
+    height: 150px;
     left: 5px;
     top: 5px;  
     text-align: center; 
   }
   .plan img{  
-    height:300%;
-    width:100%;
+    height:220%;
+    width:150%;
   }
   
   /* paramétrage des éléments dans le  plan 
@@ -87,12 +87,21 @@
   Plus la longueur  désirée de la face de l'exagone est grande plus le rayon est grand
   
   */
-  .p1 { transform: rotateY(0deg) translateZ(500px); }
-  .p2 { transform: rotateY(60deg) translateZ(500px); }
-  .p3 { transform: rotateY(120deg) translateZ(500px); }
-  .p4 { transform: rotateY(180deg) translateZ(500px); }
-  .p5 { transform: rotateY(240deg) translateZ(500px); }
-  .p6 { transform: rotateY(300deg) translateZ(500px); } 
+  .p1 { transform: rotateY(0deg) translateZ(2000px); }
+  .p2 { transform: rotateY(40deg) translateZ(2000px); }
+  .p3 { transform: rotateY(80deg) translateZ(2000px); }
+  .p4 { transform: rotateY(120deg) translateZ(2000px); }
+  .p5 { transform: rotateY(160deg) translateZ(2000px); }
+  .p6 { transform: rotateY(200deg) translateZ(2000px); } 
+  .p7 { transform: rotateY(240deg) translateZ(2000px); } 
+  .p8 { transform: rotateY(280deg) translateZ(2000px); } 
+  .p9 { transform: rotateY(320deg) translateZ(2000px); } 
+  .p10 { transform: rotateY(360deg) translateZ(2000px); } 
+  .p11 { transform: rotateY(400deg) translateZ(2000px); } 
+/* augmenter de 40 degres a chaques images et si besoin agmenter le translate afin d'augmenter le cercle 
+
+  
+  */
   
   @-webkit-keyframes carrousel{
     from { transform: translateZ(-500px) rotateY(0deg); }

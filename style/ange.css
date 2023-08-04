@@ -103,7 +103,7 @@
   
   */
   
-  @-webkit-keyframes carrousel{
+  @keyframes carrousel{
     from { transform: translateZ(-500px) rotateY(0deg); }
     to   { transform : translateZ(-500px) rotateY(360deg); }
   }

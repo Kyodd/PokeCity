@@ -36,7 +36,7 @@
 #wrapper{
   
     position: relative;
-    width: 300px;
+    width: 400px;
     height: 240px;
     margin: 50px auto;
     /*border: 1px solid #CCC;*/
@@ -44,7 +44,7 @@
    /*la distance entre "le point de vue" virtuel 
     et le point d'origine Z = 0 sur l'axe de perspective Z
     */
-    perspective: 6100px;
+    perspective: 800px;
     
    /* Position du point de fuite (l'oeil de l'internaute) 
     sur l'axe X et Y dans le contexte 3D. */
@@ -55,10 +55,10 @@
   #allPlan{
    
     position: relative; 
-    height:150%;
-    width:200%;
+    height:100%;
+    width:150%;
      
-    animation: carrousel 60s infinite linear forwards ;
+    animation: carrousel 30s infinite linear forwards ;
     /* animation-play-state : paused; */
     /* Les enfants de cet élément sont positionnés dans un espace 3D */
     transform-style: preserve-3d;
@@ -78,7 +78,7 @@
   }
   
   /* paramétrage des éléments dans le  plan 
-  6 éléments  360deg/6 elements = 60deg
+  6 éléments  360deg/6 elements = 20deg
   6 éléments  mis cote à cote forme une Hexagone
   Rayon  = distance entre élément et centre rotation de du plan
   Rayon = (longueur  désirée de la face de l'exagone /2 ) /tang(360deg/Nb éléments/2);
@@ -88,22 +88,26 @@
   
   */
   .p1 { transform: rotateY(0deg) translateZ(2000px); }
-  .p2 { transform: rotateY(40deg) translateZ(2000px); }
-  .p3 { transform: rotateY(80deg) translateZ(2000px); }
-  .p4 { transform: rotateY(120deg) translateZ(2000px); }
-  .p5 { transform: rotateY(160deg) translateZ(2000px); }
-  .p6 { transform: rotateY(200deg) translateZ(2000px); } 
-  .p7 { transform: rotateY(240deg) translateZ(2000px); } 
-  .p8 { transform: rotateY(280deg) translateZ(2000px); } 
-  .p9 { transform: rotateY(320deg) translateZ(2000px); } 
-  .p10 { transform: rotateY(360deg) translateZ(2000px); } 
-  .p11 { transform: rotateY(400deg) translateZ(2000px); } 
-/* augmenter de 40 degres a chaques images et si besoin agmenter le translate afin d'augmenter le cercle 
+  .p2 { transform: rotateY(22.5deg) translateZ(2000px); }
+  .p3 { transform: rotateY(45deg) translateZ(2000px); }
+  .p4 { transform: rotateY(67.5deg) translateZ(2000px); }
+  .p5 { transform: rotateY(90deg) translateZ(2000px); }
+  .p6 { transform: rotateY(112.5deg) translateZ(2000px); } 
+  .p7 { transform: rotateY(135deg) translateZ(2000px); } 
+  .p8 { transform: rotateY(157.5deg) translateZ(2000px); } 
+  .p9 { transform: rotateY(180deg) translateZ(2000px); } 
+  .p10 { transform: rotateY(202.5deg) translateZ(2000px); } 
+  .p11 { transform: rotateY(225deg) translateZ(2000px); } 
+  .p12 { transform: rotateY(225deg) translateZ(2000px); } 
+  .p13 { transform: rotateY(225deg) translateZ(2000px); } 
+  .p14 { transform: rotateY(225deg) translateZ(2000px); }
+  .p15 { transform: rotateY(225deg) translateZ(2000px); } 
 
+
+/* augmenter de 40 degres a chaques images et si besoin agmenter le translate afin d'augmenter le cercle 
+*/
   
-  */
-  
-  @keyframes carrousel{
-    from { transform: translateZ(-500px) rotateY(0deg); }
-    to   { transform : translateZ(-500px) rotateY(360deg); }
-  }
+@keyframes carrousel{
+  from { transform: translateZ(-500px) rotateY(0deg); }
+  to   { transform : translateZ(-500px) rotateY(360deg); }
+}

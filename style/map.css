@@ -35,6 +35,13 @@ nav {
     width: 100px;
 }
 
+.panth {
+    margin-left: 5px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+    width: 75px;
+}
+
 header {
     text-align: center;
 }
@@ -47,6 +54,8 @@ header {
     width: 142px;
     height: 8%;
 }
+
+
 
 .img {
     display: none;

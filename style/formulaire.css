@@ -32,6 +32,13 @@
     margin-left: 5px;
 }
 
+.panth {
+  margin-left: 5px;
+  margin-bottom: 7px;
+  margin-top: 10px;
+  width: 75px;
+}
+
 section {
 
     display: flex;

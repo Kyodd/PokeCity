@@ -11,12 +11,11 @@ a {
     width: 142px;
 }
 
-.sidebar {
+nav {
     display: flex;
-    display: grid;
-
+    flex-direction: column;
+    width: 8%;   
 }
-
 .ball {
 
     width: 100px;
@@ -55,11 +54,7 @@ header{
 
 }
 
-nav {
-    display: flex;
-    flex-direction: column;
-    width: 8%;   
-}
+
 
 .panth {
     margin-left: 5px;

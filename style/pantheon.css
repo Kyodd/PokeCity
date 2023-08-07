@@ -49,8 +49,14 @@ nav {
     top: -140px;
     width: 142px;
 }
-
 .view {
+    display: block;
+    margin: auto;
+    margin-top: -350px;
+}
+
+
+/* .view {
     display: block;
     margin: auto;
     margin-top: -350px;
@@ -116,3 +122,4 @@ aside {
     justify-content: center;
     justify-content: space-between;
 }
+ */

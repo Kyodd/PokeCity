@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="../style/choicePKM.css">
     <link rel="stylesheet" href="../style/pantheon.css">
     <title>Document</title>
@@ -63,11 +65,38 @@
         <aside>
             <img src="../img/panthéon titre.png" alt="Titre panthéon" class="panthtitle">
         </aside>
-    
-
-
     </div>
 
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="../img/teamPoke.png" class="d-block w-50" alt="teamPoke">
+          </div>
+          <div class="carousel-item" data-bs-interval="50">
+            <img src="../img/teamRacoon.png" class="d-block w-50" alt="teamRacoon">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/teamPigeons.png" class="d-block w-50" alt="teamPigeons">
+          </div>
+           <div class="carousel-item">
+            <img src="../img/teamVitraux.png" class="d-block w-50" alt="teamVitraux">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/teamForma.png" class="d-block w-50" alt="teamForma">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+
+      </script>
     <script src="../js/js/main.js"> </script>
 </body>
 

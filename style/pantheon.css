@@ -55,7 +55,45 @@ nav {
     margin-top: -350px;
 }
 
+aside {
+    width: 100%;;
+    display: flex;
+    justify-content: center;
+}
 
+.navmap {
+    display: flex;
+}
+
+.panthtitle {
+    display: block;
+    margin-top: -100px;  
+}
+
+.equipe {
+    margin-left: 150px ;
+    display: flex;
+    justify-content: space-between;
+}
+.equipe2 {
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.equipe3 {
+    margin-top: 350px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#carrouselExampleInterval{ 
+    margin: auto;
+}
 /* .view {
     display: block;
     margin: auto;

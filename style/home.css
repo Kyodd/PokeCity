@@ -13,33 +13,44 @@ header {
 
 }
 
-.pokeball {
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+    position: absolute;
+}
 
-    width: 80px;
-    margin-left: 10px;
+.ball {
+
+    width: 100px;
+    margin-left: -1px;
 
 }
 
-.pokedex {
-
-    width: 80px;
-
+.dex {
+    width: 100px;
+    margin-left: -5px;
 }
 
-.carte {
-
-    width: 90px;
-    margin-top: -10px;
-    margin-left: -7px;
-
+.map {
+    width: 110px;
+    margin-left: -5px;
 }
 
 .quizz {
+    width: 70px;
+    margin-left: 5px;
+}
 
-    width: 60px;
-    margin-top: -10px;
-    margin-left: 10px;
+.pickprofil {
+    width: 100px;
+}
 
+.panth {
+    margin-left: 5px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+    width: 75px;
 }
 
 section {
